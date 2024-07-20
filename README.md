@@ -1,5 +1,11 @@
 # Challenge Decodificador Alura
 
+## Você pode testar o projeto:
+
+<a href="https://app-encriptador.vercel.app/">Acesse o projeto aqui</a>
+
+link do projeto: https://app-encriptador.vercel.app/
+
 ## Desafio de Decodificador de Texto
 
 Este projeto faz parte do desafio Decodificador de Texto do curso Praticando Lógica de Programação da <a href="https://www.alura.com.br/" target="_blank">Alura</a> em parceiria com a <a href="https://www.oracle.com/br/education/oracle-next-education/" target="_blank" >Oracle Next Education</a>.
