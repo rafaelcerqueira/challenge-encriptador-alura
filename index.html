@@ -17,7 +17,11 @@
             <img src="/assets/Logo.png" alt="logo alura" class="logo__alura">
             <div class="main_content">
                 <div class="main__container__text">
-                    <textarea name="texto_principal" id="texto_principal" placeholder="Digite seu texto" maxlength="512"></textarea>
+                    <textarea 
+                        name="texto_principal" id="texto_principal" 
+                        placeholder="Digite seu texto" maxlength="200"
+                        keydown="this.value = this.value.toLowerCase();"
+                    ></textarea>
             
                     <div class="main__alerta__span">
                         <img src="/assets/icone-exclamacao.png" alt="">
@@ -48,7 +52,7 @@
 
     <footer class="rodape">
         <div class="rodape__autor">
-            <p>Desenvolvido por Rafael - <span id="currentYear"></span></p>
+            <p><span>&copy;</span> Desenvolvido por Rafael Cerqueira - <span id="currentYear"></span></span>
         </div>
         <div class="rodape__redes-sociais">
             <a href="https://github.com/rafaelcerqueira" target="_blank"><img src="/assets/github.png" alt="github icon">Github</a> 

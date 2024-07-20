@@ -5,7 +5,7 @@ document.getElementById('currentYear').textContent = currentYear;
 const btnCriptografar = document.getElementById('btn-codificar');
 const btnDescriptografar = document.getElementById('btn-decodificar');
 const btnCopiar = document.getElementById('btn-copiar');
-const textArea = document.getElementById('texto_principal');
+const textarea = document.getElementById('texto_principal');
 
 function criptografar(texto) {
     const substituicoes = {
@@ -103,3 +103,21 @@ btnCopiar.addEventListener('click', () => {
 
 });
 
+
+textarea.addEventListener('input', (event) => {
+    const input = event.target;
+    const valor = input.value;
+    const valorFiltrado = valor.replace(/[^a-z\s]/g, '');
+
+    if (valor !== valorFiltrado) {
+      input.value = valorFiltrado;
+
+    }
+  });
+
+textarea.addEventListener('keypress', (event) => {
+    const char = event.key;
+    if (!/[a-z\s]/.test(char)) { // Permite apenas letras minúsculas e espaços
+      event.preventDefault(); // Impede a entrada do caractere inválido
+    }
+  });
