@@ -49,10 +49,10 @@ Este projeto faz parte do desafio Decodificador de Texto do curso Praticando Ló
 
 3. O texto irá aparecer criptografado na caixa ao lado:
 
-- Texto original:
+#### Texto original:
 ![alt text](/assets/texto-original.png)
 
-- Texto criptografado:
+#### Texto criptografado:
 ![alt text](/assets/texto-criptografado.png)
 
 4. Clique no botão "Copiar":
@@ -72,6 +72,12 @@ Este projeto faz parte do desafio Decodificador de Texto do curso Praticando Ló
 ![alt text](/assets/texto-descriptografado-final.png)
 
 
+## Avisos Importantes:
 
+- O site ainda não está responsivo, então ele deverá ser aberto em uma tela grande (PC/Laptop).
+- A versão responsíva (mobile) ainda será desenvolvida.
+- O projeto foi desenvolvido para propósitos didáticos.
+- Icones e images de terceiros foram dados os devidos créditos no rodapé da página onde você poderá acessá-los.
+- Se tiver sugestões, entre em contato.
 
-
+## Obrigado!
