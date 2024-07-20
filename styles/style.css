@@ -150,9 +150,6 @@ body {
 
 .main__container__message img {
     width: 100%;
-    max-width: 336px;
-    height: auto;
-    margin-bottom: 32px;
 }
 
 .main__container__message h2 {
@@ -163,18 +160,44 @@ body {
     margin-bottom: 32px;
 }
 
-.main__container__message p {
+
+.texto_message {
     font-size: 16px;
     font-weight: 400;
     color: var(--text-color);
     text-align: center;
     margin-top: 16px;
+
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+.message_area p {
+    width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    margin: 0 auto;
 }
 
 .btn_copiar {
-    visibility: visible;
-    margin: 10px auto 16px auto;
+    visibility: hidden;
+    margin: 10px auto 0 auto;
+    
 }
+
+.btn_copiar:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    transition: background-color 0.3s, color 0.3s ease-in-out;
+}
+
+.btn_copiar:active {
+    transform: scale(0.9);
+}
+
+
 
 /* rodape */
 

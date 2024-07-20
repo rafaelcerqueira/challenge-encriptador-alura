@@ -17,15 +17,18 @@
             <img src="/assets/Logo.png" alt="logo alura" class="logo__alura">
             <div class="main_content">
                 <div class="main__container__text">
-                    <textarea name="texto_principal" id="texto_principal" placeholder="Digite seu texto"></textarea>
+                    <textarea name="texto_principal" id="texto_principal" placeholder="Digite seu texto" maxlength="160"></textarea>
             
                     <div class="main__alerta__span">
                         <img src="/assets/icone-exclamacao.png" alt="">
                         <span>Apenas letras minúsculas e sem acento.</span>
                     </div>
                     <div class="main__container__buttons">
-                        <button class="dark-button codedText">Criptografar</button>
-                        <button class="light-button codedText">Descriptografar</button>
+                        <button 
+                            class="dark-button codedText" id="btn-codificar" 
+                            onclick=""
+                        >Criptografar</button>
+                        <button class="light-button codedText" id="btn-decodificar">Descriptografar</button>
                     </div>
                 </div>
             </div>
@@ -33,9 +36,9 @@
                 <div class="message_area">
                     <img src="/assets/no-message-img.svg" alt="">
                     <h2>Nenhuma mensagem encontrada</h2>
-                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    <p class="texto_message">Digite um texto que você deseja criptografar ou descriptografar.</p>
                 </div>
-                <button class="light-button btn_copiar">Copiar</button>
+                <button class="light-button btn_copiar" id="btn-copiar" onclick="">Copiar</button>
             </div>
         </div>
     </main>
