@@ -2,9 +2,8 @@
 
 ## Você pode testar o projeto:
 
-<a href="https://app-encriptador.vercel.app/">Acesse o projeto aqui</a>
+<a href="https://challenge-encriptador-alura-rj2eifxss.vercel.app/">Acesse o projeto aqui</a>
 
-link do projeto: https://app-encriptador.vercel.app/
 
 ## Desafio de Decodificador de Texto
 
