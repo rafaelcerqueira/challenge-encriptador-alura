@@ -2,7 +2,7 @@
 
 ## Você pode testar o projeto:
 
-<a href="https://challenge-encriptador-alura-rj2eifxss.vercel.app/">Acesse o projeto aqui</a>
+<a href="https://decodificador-challenge.netlify.app/">Acesse o projeto aqui</a>
 
 
 ## Desafio de Decodificador de Texto
